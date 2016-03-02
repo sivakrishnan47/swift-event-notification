@@ -7,7 +7,7 @@ Sending out notifications should happen when an object got modified. That means 
 2) Alter your proxy-server.conf pipeline to have swift-event-notification:
 
    a) Add 'event-notifier' to pipeline</br>
-   b) Add filter 
-      [filter:event-notifier]
-      use = egg:event-notifier#event-notifier
+   b) Add filter</br> 
+       [filter:event-notifier]</br>
+       use = egg:event-notifier#event-notifier
 
